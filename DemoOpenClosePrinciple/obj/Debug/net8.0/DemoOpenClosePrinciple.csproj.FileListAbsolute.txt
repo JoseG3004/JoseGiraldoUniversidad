@@ -1,0 +1,28 @@
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.exe
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.deps.json
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.runtimeconfig.json
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.dll
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.pdb
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.AssemblyInfoInputs.cache
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.AssemblyInfo.cs
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.csproj.CoreCompileInputs.cache
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.dll
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\refint\DemoOpenClosePrinciple.dll
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.pdb
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.genruntimeconfig.cache
+C:\Users\jrcog\OneDrive - UCO\UCO-2026-2\Cursos\POO MJ\Shared\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\ref\DemoOpenClosePrinciple.dll
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.exe
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.deps.json
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.runtimeconfig.json
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.dll
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\bin\Debug\net8.0\DemoOpenClosePrinciple.pdb
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.AssemblyInfoInputs.cache
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.AssemblyInfo.cs
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.csproj.CoreCompileInputs.cache
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.dll
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\refint\DemoOpenClosePrinciple.dll
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.pdb
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\DemoOpenClosePrinciple.genruntimeconfig.cache
+C:\Users\Jose Giraldo\Downloads\DemoOpenClosePrinciple\DemoOpenClosePrinciple\DemoOpenClosePrinciple\obj\Debug\net8.0\ref\DemoOpenClosePrinciple.dll
