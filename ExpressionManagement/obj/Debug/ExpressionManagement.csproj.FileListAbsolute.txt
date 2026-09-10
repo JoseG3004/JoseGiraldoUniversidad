@@ -1,0 +1,7 @@
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ExpressionManagement\bin\Debug\ExpressionManagement.exe.config
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ExpressionManagement\bin\Debug\ExpressionManagement.exe
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ExpressionManagement\bin\Debug\ExpressionManagement.pdb
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ExpressionManagement\obj\Debug\ExpressionManagement.csproj.AssemblyReference.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ExpressionManagement\obj\Debug\ExpressionManagement.csproj.CoreCompileInputs.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ExpressionManagement\obj\Debug\ExpressionManagement.exe
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ExpressionManagement\obj\Debug\ExpressionManagement.pdb
