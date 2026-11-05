@@ -1,0 +1,16 @@
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\bin\Debug\net10.0\PuntoDeAtencion.exe
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\bin\Debug\net10.0\PuntoDeAtencion.deps.json
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\bin\Debug\net10.0\PuntoDeAtencion.runtimeconfig.json
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\bin\Debug\net10.0\PuntoDeAtencion.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\bin\Debug\net10.0\PuntoDeAtencion.pdb
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\PuntoDeAtencion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\PuntoDeAtencion.AssemblyInfoInputs.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\PuntoDeAtencion.AssemblyInfo.cs
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\PuntoDeAtencion.csproj.CoreCompileInputs.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\PuntoDeAtencion.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\refint\PuntoDeAtencion.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\PuntoDeAtencion.pdb
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\PuntoDeAtencion.genruntimeconfig.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\ref\PuntoDeAtencion.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\PuntoDeA.0FF44A3A.Up2Date
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\TrabajoVidaReal\obj\Debug\net10.0\PuntoDeAtencion.sourcelink.json

@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\interfazconsola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:interfazconsola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\tiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:tiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\randommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:randommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\coladrenaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:coladrenaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\colapreferencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:colapreferencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\trabajovidareal\\cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A9D718-6140-0D59-1E12-AA40DF042E5C}|PuntoDeAtencion.csproj|solutionrelative:cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAIwAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T23:35:12.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cola.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Cola.cs",
+              "RelativeDocumentMoniker": "Cola.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Cola.cs",
+              "RelativeToolTip": "Cola.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T23:35:31.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Persona.cs",
+              "RelativeDocumentMoniker": "Persona.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Persona.cs",
+              "RelativeToolTip": "Persona.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T00:19:54.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Caja.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Caja.cs",
+              "RelativeDocumentMoniker": "Caja.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Caja.cs",
+              "RelativeToolTip": "Caja.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T04:15:42.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ColaPreferencial.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\ColaPreferencial.cs",
+              "RelativeDocumentMoniker": "ColaPreferencial.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\ColaPreferencial.cs",
+              "RelativeToolTip": "ColaPreferencial.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T17:05:41.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColaDrenaje.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\ColaDrenaje.cs",
+              "RelativeDocumentMoniker": "ColaDrenaje.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\ColaDrenaje.cs",
+              "RelativeToolTip": "ColaDrenaje.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T17:05:31.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RandomManager.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\RandomManager.cs",
+              "RelativeDocumentMoniker": "RandomManager.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\RandomManager.cs",
+              "RelativeToolTip": "RandomManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T05:12:09.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tiempo.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Tiempo.cs",
+              "RelativeDocumentMoniker": "Tiempo.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Tiempo.cs",
+              "RelativeToolTip": "Tiempo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T00:18:30.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InterfazConsola.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\InterfazConsola.cs",
+              "RelativeDocumentMoniker": "InterfazConsola.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\InterfazConsola.cs",
+              "RelativeToolTip": "InterfazConsola.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T17:14:44.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nodo.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Nodo.cs",
+              "RelativeDocumentMoniker": "Nodo.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\TrabajoVidaReal\\Nodo.cs",
+              "RelativeToolTip": "Nodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T17:05:16.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

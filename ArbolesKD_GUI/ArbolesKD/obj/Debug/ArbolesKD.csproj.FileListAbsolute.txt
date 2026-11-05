@@ -1,0 +1,7 @@
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ArbolesKD_GUI\ArbolesKD\bin\Debug\ArbolesKD.exe.config
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ArbolesKD_GUI\ArbolesKD\bin\Debug\ArbolesKD.exe
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ArbolesKD_GUI\ArbolesKD\bin\Debug\ArbolesKD.pdb
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ArbolesKD_GUI\ArbolesKD\obj\Debug\ArbolesKD.csproj.AssemblyReference.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ArbolesKD_GUI\ArbolesKD\obj\Debug\ArbolesKD.csproj.CoreCompileInputs.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ArbolesKD_GUI\ArbolesKD\obj\Debug\ArbolesKD.exe
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ArbolesKD_GUI\ArbolesKD\obj\Debug\ArbolesKD.pdb
