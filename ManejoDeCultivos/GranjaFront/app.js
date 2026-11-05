@@ -247,7 +247,6 @@ function verDetalleFinca(id) {
     document.getElementById('det-contacto-nombre').textContent = g.contacto?.nombre || 'No asignado';
     const tel = g.contacto?.telefono || '';
     document.getElementById('det-contacto-telefono').textContent = tel;
-    document.getElementById('det-contacto-phone-link').href = tel ? `https://wa.me/${tel.replace(/[^0-9]/g, '')}` : '#';
 
     const modal = new bootstrap.Modal(document.getElementById('detalleFincaModal'));
     modal.show();

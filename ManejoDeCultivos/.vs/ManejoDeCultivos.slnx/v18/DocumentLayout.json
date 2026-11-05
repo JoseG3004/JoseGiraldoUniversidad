@@ -66,8 +66,7 @@
               "RelativeToolTip": "Servicios\\Interfaces\\IGranja.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T16:08:32.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T16:08:32.1Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "BaseDatos\\Datos.cs",
               "ViewState": "AgIAAFoFAAAAAAAAAAAAwHcFAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T15:56:30.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T15:56:30.886Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "Servicios\\Servicios\\ServicioGranja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T15:55:43.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T15:55:43.745Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "Modelos\\DTOs\\GranjaDTO.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwCMAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T15:53:50.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T15:53:50.398Z"
             },
             {
               "$type": "Document",
@@ -118,8 +114,7 @@
               "RelativeToolTip": "Modelos\\Contacto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T15:52:36.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T15:52:36.083Z"
             },
             {
               "$type": "Document",
@@ -131,8 +126,7 @@
               "RelativeToolTip": "Modelos\\Granja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T15:50:10.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T15:50:10.362Z"
             },
             {
               "$type": "Document",
@@ -144,8 +138,7 @@
               "RelativeToolTip": "ManejoDeCultivos\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-05T15:21:42.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T15:21:42.274Z"
             },
             {
               "$type": "Document",
@@ -157,8 +150,7 @@
               "RelativeToolTip": "ManejoDeCultivos\\Program.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAmwGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T02:03:35.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T02:03:35.613Z"
             },
             {
               "$type": "Document",
@@ -168,7 +160,7 @@
               "RelativeDocumentMoniker": "Servicios\\Servicios\\JWTServicio.cs",
               "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Servicios\\Servicios\\JWTServicio.cs",
               "RelativeToolTip": "Servicios\\Servicios\\JWTServicio.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAmwC4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T02:42:10.051Z",
               "EditorCaption": ""
@@ -183,8 +175,7 @@
               "RelativeToolTip": "ManejoDeCultivos\\Controllers\\GranjasController.cs",
               "ViewState": "AgIAAAwBAAAAAAAAAAAcwB0BAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T02:04:33.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T02:04:33.219Z"
             },
             {
               "$type": "Document",
@@ -196,8 +187,7 @@
               "RelativeToolTip": "ManejoDeCultivos\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowBUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T02:57:47.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T02:57:47.155Z"
             }
           ]
         }
