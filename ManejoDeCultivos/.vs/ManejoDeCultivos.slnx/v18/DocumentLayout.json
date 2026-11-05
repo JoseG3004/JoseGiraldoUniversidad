@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5958A855-38D8-2012-71D5-B8F8497BFE4C}|Servicios\\Servicios.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\servicios\\servicios\\jwtservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5958A855-38D8-2012-71D5-B8F8497BFE4C}|Servicios\\Servicios.csproj|solutionrelative:servicios\\servicios\\jwtservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D61D6D-C0A0-0198-5208-045D31A5C885}|ManejoDeCultivos\\ManejoDeCultivos.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\manejodecultivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D61D6D-C0A0-0198-5208-045D31A5C885}|ManejoDeCultivos\\ManejoDeCultivos.csproj|solutionrelative:manejodecultivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5958A855-38D8-2012-71D5-B8F8497BFE4C}|Servicios\\Servicios.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\servicios\\servicios\\serviciogranja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5958A855-38D8-2012-71D5-B8F8497BFE4C}|Servicios\\Servicios.csproj|solutionrelative:servicios\\servicios\\serviciogranja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5958A855-38D8-2012-71D5-B8F8497BFE4C}|Servicios\\Servicios.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\servicios\\interfaces\\igranja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5958A855-38D8-2012-71D5-B8F8497BFE4C}|Servicios\\Servicios.csproj|solutionrelative:servicios\\interfaces\\igranja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D61D6D-C0A0-0198-5208-045D31A5C885}|ManejoDeCultivos\\ManejoDeCultivos.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\manejodecultivos\\controllers\\granjascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D61D6D-C0A0-0198-5208-045D31A5C885}|ManejoDeCultivos\\ManejoDeCultivos.csproj|solutionrelative:manejodecultivos\\controllers\\granjascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83289034-189B-A857-978B-A4960DA8D883}|BaseDatos\\BaseDatos.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\basedatos\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83289034-189B-A857-978B-A4960DA8D883}|BaseDatos\\BaseDatos.csproj|solutionrelative:basedatos\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24742B48-7844-2A66-2697-4D31BBC53020}|Modelos\\Modelos.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\modelos\\dtos\\granjadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24742B48-7844-2A66-2697-4D31BBC53020}|Modelos\\Modelos.csproj|solutionrelative:modelos\\dtos\\granjadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24742B48-7844-2A66-2697-4D31BBC53020}|Modelos\\Modelos.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\modelos\\granja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24742B48-7844-2A66-2697-4D31BBC53020}|Modelos\\Modelos.csproj|solutionrelative:modelos\\granja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24742B48-7844-2A66-2697-4D31BBC53020}|Modelos\\Modelos.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\modelos\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24742B48-7844-2A66-2697-4D31BBC53020}|Modelos\\Modelos.csproj|solutionrelative:modelos\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D61D6D-C0A0-0198-5208-045D31A5C885}|ManejoDeCultivos\\ManejoDeCultivos.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\manejodecultivos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91D61D6D-C0A0-0198-5208-045D31A5C885}|ManejoDeCultivos\\ManejoDeCultivos.csproj|solutionrelative:manejodecultivos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D61D6D-C0A0-0198-5208-045D31A5C885}|ManejoDeCultivos\\ManejoDeCultivos.csproj|c:\\users\\jose giraldo\\desktop\\semestre ii-2026\\estructuras\\manejodecultivos\\manejodecultivos\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D61D6D-C0A0-0198-5208-045D31A5C885}|ManejoDeCultivos\\ManejoDeCultivos.csproj|solutionrelative:manejodecultivos\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGranja.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Servicios\\Interfaces\\IGranja.cs",
+              "RelativeDocumentMoniker": "Servicios\\Interfaces\\IGranja.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Servicios\\Interfaces\\IGranja.cs",
+              "RelativeToolTip": "Servicios\\Interfaces\\IGranja.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T16:08:32.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Datos.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\BaseDatos\\Datos.cs",
+              "RelativeDocumentMoniker": "BaseDatos\\Datos.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\BaseDatos\\Datos.cs",
+              "RelativeToolTip": "BaseDatos\\Datos.cs",
+              "ViewState": "AgIAAFoFAAAAAAAAAAAAwHcFAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T15:56:30.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicioGranja.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Servicios\\Servicios\\ServicioGranja.cs",
+              "RelativeDocumentMoniker": "Servicios\\Servicios\\ServicioGranja.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Servicios\\Servicios\\ServicioGranja.cs",
+              "RelativeToolTip": "Servicios\\Servicios\\ServicioGranja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T15:55:43.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GranjaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Modelos\\DTOs\\GranjaDTO.cs",
+              "RelativeDocumentMoniker": "Modelos\\DTOs\\GranjaDTO.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Modelos\\DTOs\\GranjaDTO.cs",
+              "RelativeToolTip": "Modelos\\DTOs\\GranjaDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T15:53:50.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contacto.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Modelos\\Contacto.cs",
+              "RelativeDocumentMoniker": "Modelos\\Contacto.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Modelos\\Contacto.cs",
+              "RelativeToolTip": "Modelos\\Contacto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T15:52:36.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Granja.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Modelos\\Granja.cs",
+              "RelativeDocumentMoniker": "Modelos\\Granja.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Modelos\\Granja.cs",
+              "RelativeToolTip": "Modelos\\Granja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T15:50:10.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\ManejoDeCultivos\\appsettings.json",
+              "RelativeDocumentMoniker": "ManejoDeCultivos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\ManejoDeCultivos\\appsettings.json",
+              "RelativeToolTip": "ManejoDeCultivos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-05T15:21:42.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\ManejoDeCultivos\\Program.cs",
+              "RelativeDocumentMoniker": "ManejoDeCultivos\\Program.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\ManejoDeCultivos\\Program.cs",
+              "RelativeToolTip": "ManejoDeCultivos\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T02:03:35.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JWTServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Servicios\\Servicios\\JWTServicio.cs",
+              "RelativeDocumentMoniker": "Servicios\\Servicios\\JWTServicio.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\Servicios\\Servicios\\JWTServicio.cs",
+              "RelativeToolTip": "Servicios\\Servicios\\JWTServicio.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T02:42:10.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GranjasController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\ManejoDeCultivos\\Controllers\\GranjasController.cs",
+              "RelativeDocumentMoniker": "ManejoDeCultivos\\Controllers\\GranjasController.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\ManejoDeCultivos\\Controllers\\GranjasController.cs",
+              "RelativeToolTip": "ManejoDeCultivos\\Controllers\\GranjasController.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAcwB0BAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T02:04:33.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\ManejoDeCultivos\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ManejoDeCultivos\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Jose Giraldo\\Desktop\\Semestre II-2026\\Estructuras\\ManejoDeCultivos\\ManejoDeCultivos\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ManejoDeCultivos\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T02:57:47.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

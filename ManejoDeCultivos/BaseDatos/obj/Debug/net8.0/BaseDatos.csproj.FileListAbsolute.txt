@@ -1,0 +1,16 @@
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\bin\Debug\net8.0\BaseDatos.deps.json
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\bin\Debug\net8.0\BaseDatos.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\bin\Debug\net8.0\BaseDatos.pdb
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\bin\Debug\net8.0\Modelos.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\bin\Debug\net8.0\Modelos.pdb
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\BaseDatos.csproj.AssemblyReference.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\BaseDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\BaseDatos.AssemblyInfoInputs.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\BaseDatos.AssemblyInfo.cs
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\BaseDatos.csproj.CoreCompileInputs.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\BaseDatos.sourcelink.json
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\BaseDatos.csproj.Up2Date
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\BaseDatos.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\refint\BaseDatos.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\BaseDatos.pdb
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\BaseDatos\obj\Debug\net8.0\ref\BaseDatos.dll

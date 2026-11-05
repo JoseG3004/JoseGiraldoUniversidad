@@ -1,0 +1,331 @@
+/* Estilo Fincas del Oriente Antioqueño - Ajustes de Contraste y Bandera de Antioquia */
+:root {
+    --green-main: #147A46;
+    --green-dark: #094024; /* Header más oscuro para resaltar de la bandera y el fondo */
+    --green-light: #E8F5EE;
+    --green-accent: #22C55E;
+    --bg-slate: #F8FAFC;
+    --card-border-radius: 18px;
+    --text-dark: #1E293B;
+}
+
+body {
+    background-color: var(--bg-slate);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: var(--text-dark);
+}
+
+.fs-7 { font-size: 0.85rem; }
+.fs-8 { font-size: 0.75rem; }
+.fw-extrabold { font-weight: 800; }
+.text-dark-green { color: var(--green-dark); }
+.text-green { color: var(--green-main); }
+.text-white-80 { color: rgba(255, 255, 255, 0.85); }
+.bg-light-green { background-color: var(--green-light); }
+
+/* Header/Navbar Oscuro */
+.navbar-fincas {
+    background-color: var(--green-dark) !important;
+    padding: 14px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* User Role Badge */
+.user-role-card {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.user-avatar-circle {
+    width: 32px;
+    height: 32px;
+    background: var(--green-light);
+    color: var(--green-main);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+/* Chips / Botones Seleccionables */
+.btn-chip.active {
+    background-color: var(--green-main) !important;
+    color: #ffffff !important;
+    border-color: var(--green-main) !important;
+    box-shadow: 0 4px 8px rgba(20, 122, 70, 0.25);
+}
+
+/* --- LOGIN VIEW --- */
+.login-view {
+    background: linear-gradient(135deg, #094024 0%, #147A46 60%, #1e8a52 100%);
+    overflow: hidden;
+}
+
+.bg-shape {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+}
+.shape-1 { width: 400px; height: 400px; top: -100px; left: -100px; }
+.shape-2 { width: 500px; height: 500px; bottom: -150px; right: -100px; }
+.shape-3 { width: 250px; height: 250px; top: 30%; right: 15%; background: rgba(34, 197, 94, 0.1); }
+
+.login-card {
+    border-radius: 24px;
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+}
+
+.brand-badge {
+    width: 70px;
+    height: 70px;
+    background: var(--green-light);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.brand-icon-inner { font-size: 2.2rem; }
+
+/* --- NAVBAR REPLICA --- */
+.brand-logo-circle {
+    width: 36px;
+    height: 36px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.nav-btn-tab {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-weight: 600;
+    padding: 8px 18px !important;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.nav-btn-tab:hover, .nav-btn-tab.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff !important;
+}
+
+.btn-white-pill {
+    background-color: #ffffff;
+    color: var(--green-dark);
+    border-radius: 25px;
+    padding: 8px 22px;
+    border: none;
+    transition: all 0.2s ease;
+}
+.btn-white-pill:hover {
+    background-color: #f1f5f9;
+    color: var(--green-dark);
+    transform: translateY(-1px);
+}
+
+.btn-outline-white-pill {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 7px 22px;
+    background: transparent;
+    transition: all 0.2s ease;
+}
+.btn-outline-white-pill:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+.btn-green-main {
+    background-color: var(--green-main);
+    border: none;
+}
+.btn-green-main:hover {
+    background-color: var(--green-dark);
+}
+
+.btn-outline-green-pill {
+    border: 2px solid var(--green-main);
+    color: var(--green-main);
+    border-radius: 25px;
+    background: transparent;
+}
+.btn-outline-green-pill:hover {
+    background-color: var(--green-main);
+    color: #ffffff;
+}
+
+/* --- HERO & INICIO --- */
+.hero-green-section {
+    background: linear-gradient(180deg, #147A46 0%, #0F6338 100%);
+    padding-bottom: 20px;
+}
+
+.badge-hero {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.hero-title {
+    font-size: 2.8rem;
+    line-height: 1.15;
+}
+
+.hero-subtitle {
+    font-size: 1.05rem;
+    max-width: 580px;
+}
+
+.hero-illustration-container {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-img-badge {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    background: rgba(9, 64, 36, 0.88);
+    backdrop-filter: blur(4px);
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.hero-green-section {
+    padding-bottom: 0 !important; /* Elimina cualquier espacio verde inferior */
+}
+
+.hero-wave-bottom {
+    margin-bottom: -1px; /* Tapa cualquier imperfección de 1px entre secciones */
+    line-height: 0;       /* Elimina el espacio fantasma debajo del SVG */
+}
+
+.hero-wave-bottom svg {
+    display: block;      /* Quita el comportamiento inline para que pegue al borde inferior */
+    width: 100%;
+    height: auto;
+}
+
+/* Tarjetas de Estadísticas Verdes con Texto Blanco Solicitado */
+.card-stat-green {
+    border-radius: var(--card-border-radius);
+    background: linear-gradient(135deg, #147A46 0%, #0D5C33 100%);
+    color: #ffffff !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-stat-green:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(13, 92, 51, 0.25) !important;
+}
+
+.card-step {
+    border-radius: var(--card-border-radius);
+    background: #ffffff;
+    height: 100%;
+}
+
+.step-num {
+    width: 36px;
+    height: 36px;
+    background: var(--green-light);
+    color: var(--green-main);
+    font-weight: 800;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- CATÁLOGO STYLE --- */
+.catalogo-header-green {
+    background-color: var(--green-main);
+    padding-bottom: 60px !important;
+}
+
+.card-filter-box {
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+.form-control-rounded, .form-select-rounded {
+    border-radius: 25px;
+    padding: 10px 18px;
+    border: 1px solid #cbd5e1;
+}
+
+.finca-card {
+    border-radius: 20px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.finca-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px -8px rgba(0,0,0,0.12) !important;
+    border-color: var(--green-main);
+}
+
+.product-avatar {
+    width: 54px;
+    height: 54px;
+    border-radius: 16px;
+    background: var(--green-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    flex-shrink: 0;
+}
+
+.badge-tag {
+    background-color: var(--green-light);
+    color: var(--green-dark);
+    font-weight: 600;
+    font-size: 0.78rem;
+    padding: 5px 12px;
+    border-radius: 12px;
+}
+
+.pagination-rounded .page-link {
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.pagination-rounded .page-item.active .page-link {
+    background-color: var(--green-main);
+    color: #ffffff;
+}

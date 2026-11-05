@@ -1,0 +1,12 @@
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\obj\Debug\net10.0\Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\obj\Debug\net10.0\Modelos.AssemblyInfoInputs.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\obj\Debug\net10.0\Modelos.AssemblyInfo.cs
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\obj\Debug\net10.0\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\obj\Debug\net10.0\Modelos.sourcelink.json
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\bin\Debug\net10.0\Modelos.deps.json
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\bin\Debug\net10.0\Modelos.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\bin\Debug\net10.0\Modelos.pdb
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\obj\Debug\net10.0\Modelos.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\obj\Debug\net10.0\refint\Modelos.dll
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\obj\Debug\net10.0\Modelos.pdb
+C:\Users\Jose Giraldo\Desktop\Semestre II-2026\Estructuras\ManejoDeCultivos\Modelos\obj\Debug\net10.0\ref\Modelos.dll

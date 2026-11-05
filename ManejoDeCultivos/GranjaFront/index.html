@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fincas del Oriente Antioqueño</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Pantalla de Login -->
+    <div id="login-container" class="login-view d-flex justify-content-center align-items-center vh-100 position-relative">
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+        <div class="bg-shape shape-3"></div>
+
+        <div class="card login-card shadow-lg p-4 p-md-5 border-0 z-1">
+            <div class="text-center mb-4">
+                <div class="brand-badge mb-3">
+                    <div class="brand-icon-inner">🌱</div>
+                </div>
+                <h3 class="fw-extrabold text-dark-green mb-1">Fincas del Oriente</h3>
+                <p class="text-muted fs-7">Plataforma Agrícola del Campo Antioqueño</p>
+            </div>
+            
+            <div id="login-alert" class="alert alert-danger rounded-4 d-none" role="alert"></div>
+
+            <form id="login-form">
+                <div class="mb-3">
+                    <label for="username" class="form-label fw-bold text-secondary fs-7">Usuario</label>
+                    <div class="input-group">
+                        <span class="input-group-text border-end-0 bg-light-green text-green"><i class="bi bi-person"></i></span>
+                        <input type="text" class="form-control border-start-0 bg-light-green" id="username" placeholder="admin ó user" required>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label fw-bold text-secondary fs-7">Contraseña</label>
+                    <div class="input-group">
+                        <span class="input-group-text border-end-0 bg-light-green text-green"><i class="bi bi-lock"></i></span>
+                        <input type="password" class="form-control border-start-0 bg-light-green" id="password" placeholder="••••••••" required>
+                    </div>
+                </div>
+                <button type="submit" id="login-btn" class="btn btn-green-main w-100 py-2.5 fw-bold text-white shadow-sm rounded-pill">
+                    <span id="login-spinner" class="spinner-border spinner-border-sm me-1 d-none" role="status"></span>
+                    Iniciar Sesión <i class="bi bi-arrow-right-short ms-1"></i>
+                </button>
+            </form>
+            <div class="mt-4 pt-3 text-center border-top">
+                <small class="text-muted fs-7">Credenciales de prueba:<br> <b>admin</b> / <b>admin123</b> &bull; <b>user</b> / <b>user123</b></small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Panel Principal / Dashboard -->
+    <div id="app-container" class="d-none">
+
+        <!-- Navbar Principal con tono oscuro para contrastar con la bandera antioqueña -->
+        <nav class="navbar navbar-expand-lg navbar-fincas sticky-top">
+            <div class="container px-4">
+                <a class="navbar-brand d-flex align-items-center gap-2 text-white fw-bold" href="#" onclick="switchTab('inicio')">
+                    <div class="brand-logo-circle">🌱</div>
+                    <span class="fs-5">Fincas del Oriente</span>
+                </a>
+                
+                <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarFincas">
+                    <i class="bi bi-list fs-2"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarFincas">
+                    <ul class="navbar-nav ms-auto align-items-center gap-2 mt-3 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-btn-tab active" id="tab-inicio" href="#" onclick="switchTab('inicio')">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-btn-tab" id="tab-catalogo" href="#" onclick="switchTab('catalogo')">Ver fincas</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="btn-header-registrar" class="btn btn-white-pill ms-lg-2 fw-bold" onclick="abrirModalRegistrar()">
+                                + Registrar mi finca
+                            </button>
+                        </li>
+                        
+                        <!-- Badge de usuario con icono de persona dentro de su propio cuadro redondeado -->
+                        <li class="nav-item ms-lg-3 d-flex align-items-center gap-2">
+                            <div class="user-role-card d-flex align-items-center gap-2 px-3 py-1.5 rounded-4 bg-white text-dark-green shadow-sm">
+                                <div class="user-avatar-circle">
+                                    <i class="bi bi-person-fill"></i>
+                                </div>
+                                <div class="lh-1">
+                                    <span class="d-block fw-bold fs-7" id="user-display-name">Usuario</span>
+                                    <span class="badge rounded-pill bg-light-green text-green font-monospace fs-8" id="user-role-badge">Admin</span>
+                                </div>
+                            </div>
+                            <button id="logout-btn" class="btn btn-outline-light-soft btn-sm rounded-circle p-2 text-white" title="Cerrar sesión">
+                                <i class="bi bi-box-arrow-right fs-6"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- SECCIÓN 1: INICIO -->
+        <div id="section-inicio" class="view-section">
+            <div class="hero-green-section position-relative overflow-hidden">
+                <div class="container px-4 py-5">
+                    <div class="row align-items-center py-3">
+                        <div class="col-lg-7 text-white mb-4 mb-lg-0">
+                            <div class="badge-hero mb-3">🌱 Hecho para el campo antioqueño</div>
+                            <h1 class="hero-title fw-extrabold mb-3">Tu finca, visible para todo el Oriente</h1>
+                            <p class="hero-subtitle text-white-80 mb-4">
+                                Registra tu finca y lo que cultivas. Así las alcaldías y los compradores pueden encontrarte y comprarle directamente a quienes trabajan la tierra.
+                            </p>
+                            <div class="d-flex flex-wrap gap-3">
+                                <button class="btn btn-white-pill fw-bold shadow-sm" onclick="abrirModalRegistrar()">Registrar mi finca</button>
+                                <button class="btn btn-outline-white-pill fw-bold" onclick="switchTab('catalogo')">Ver fincas registradas</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 text-center">
+                            <div class="hero-illustration-container shadow-lg rounded-4 overflow-hidden position-relative border border-white border-3">
+                                <img src="https://www.idea.gov.co/wp-content/uploads/2026/03/DSC00586-Mejorado-NR-scaled.jpg" alt="Agricultor Antioqueño" class="img-fluid hero-img">
+                                <div class="hero-img-badge">
+                                    <span>📍 Oriente Antioqueño</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Transición limpia sin franja verde extra -->
+                <div class="hero-wave-bottom">
+                    <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0,0 C480,100 960,100 1440,0 L1440,100 L0,100 Z" fill="#F8FAFC"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="container px-4 py-4" style="margin-top: -30px; position: relative; z-index: 5;">
+                <!-- Tarjetas de Estadísticas/Dashboards Verdes con Texto Blanco -->
+                <div class="row g-3 text-center mb-5">
+                    <div class="col-6 col-md-3">
+                        <div class="card card-stat-green border-0 shadow-md p-3">
+                            <h2 class="fw-extrabold text-white mb-0" id="stat-fincas">100</h2>
+                            <p class="text-white-80 fs-7 mb-0">fincas registradas</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card card-stat-green border-0 shadow-md p-3">
+                            <h2 class="fw-extrabold text-white mb-0">23</h2>
+                            <p class="text-white-80 fs-7 mb-0">municipios</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card card-stat-green border-0 shadow-md p-3">
+                            <h2 class="fw-extrabold text-white mb-0">1.240</h2>
+                            <p class="text-white-80 fs-7 mb-0">hectáreas cultivadas</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card card-stat-green border-0 shadow-md p-3">
+                            <h2 class="fw-extrabold text-white mb-0">18</h2>
+                            <p class="text-white-80 fs-7 mb-0">productos distintos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center py-4 mb-4">
+                    <h3 class="fw-extrabold text-dark mb-2">¿Cómo funciona?</h3>
+                    <p class="text-muted fs-7">Tres pasos sencillos, desde el celular o el computador.</p>
+
+                    <div class="row g-4 mt-3">
+                        <div class="col-md-4">
+                            <div class="card card-step border-0 p-4 text-center">
+                                <div class="step-num mb-3">1</div>
+                                <h6 class="fw-bold text-dark">Cuéntanos de tu finca</h6>
+                                <p class="text-muted fs-7 mb-0">Ingresa la ubicación, municipio y contacto del propietario.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-step border-0 p-4 text-center">
+                                <div class="step-num mb-3">2</div>
+                                <h6 class="fw-bold text-dark">Dinos qué cultivas</h6>
+                                <p class="text-muted fs-7 mb-0">Agrega tus productos principales como aguacate, café o hortalizas.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-step border-0 p-4 text-center">
+                                <div class="step-num mb-3">3</div>
+                                <h6 class="fw-bold text-dark">Los compradores te encuentran</h6>
+                                <p class="text-muted fs-7 mb-0">Entidades y mercados locales se conectarán directamente contigo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN 2: CATÁLOGO -->
+        <div id="section-catalogo" class="view-section d-none">
+            <div class="catalogo-header-green py-5 text-white">
+                <div class="container px-4">
+                    <h2 class="fw-extrabold mb-1">Fincas del Oriente Antioqueño</h2>
+                    <p class="text-white-80 mb-0 fs-6">Busca por nombre, municipio, clima o producto.</p>
+                </div>
+            </div>
+
+            <div class="container px-4" style="margin-top: -30px; position: relative; z-index: 5;">
+                
+                <!-- Caja de Filtros Principal con botón de Filtros Avanzados -->
+                <div class="card card-filter-box border-0 shadow-sm p-4 mb-4">
+                    <div class="row g-3 align-items-end">
+                        <div class="col-md-3">
+                            <label class="form-label fw-bold text-dark fs-7 mb-1">Buscar</label>
+                            <input type="text" id="filter-nombre" class="form-control form-control-rounded" placeholder="Finca, vereda o propietario...">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label fw-bold text-dark fs-7 mb-1">Municipio</label>
+                            <select id="filter-municipio" class="form-select form-select-rounded">
+                                <option value="">Todos los municipios</option>
+                                <option value="sonsón">Sonsón</option>
+                                <option value="la unión">La Unión</option>
+                                <option value="el santuario">El Santuario</option>
+                                <option value="marinilla">Marinilla</option>
+                                <option value="la ceja">La Ceja</option>
+                                <option value="rionegro">Rionegro</option>
+                                <option value="el peñol">El Peñol</option>
+                                <option value="guarne">Guarne</option>
+                                <option value="el carmen de viboral">El Carmen de Viboral</option>
+                                <option value="san vicente ferrer">San Vicente Ferrer</option>
+                                <option value="abejorral">Abejorral</option>
+                                <option value="guatapé">Guatapé</option>
+                                <option value="san rafael">San Rafael</option>
+                                <option value="san carlos">San Carlos</option>
+                                <option value="granada">Granada</option>
+                                <option value="cocorná">Cocorná</option>
+                                <option value="argelia">Argelia</option>
+                                <option value="nariño">Nariño</option>
+                                <option value="concepción">Concepción</option>
+                                <option value="alejandría">Alejandría</option>
+                                <option value="san luis">San Luis</option>
+                                <option value="puerto triunfo">Puerto Triunfo</option>
+                                <option value="el retiro">El Retiro</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label fw-bold text-dark fs-7 mb-1">Producto / Cultivo</label>
+                            <select id="filter-producto" class="form-select form-select-rounded">
+                                <option value="">Todos los productos</option>
+                                <option value="papa">Papa (Capira / Criolla)</option>
+                                <option value="zanahoria">Zanahoria</option>
+                                <option value="remolacha">Remolacha</option>
+                                <option value="uchuva">Uchuva</option>
+                                <option value="tomate">Tomate (Chonto / Árbol / Cherry)</option>
+                                <option value="brócoli">Brócoli</option>
+                                <option value="fríjol">Fríjol Cargamanto</option>
+                                <option value="cebolla">Cebolla (Rama / Huevo)</option>
+                                <option value="café">Café Especial</option>
+                                <option value="habichuela">Habichuela</option>
+                                <option value="cacao">Cacao</option>
+                                <option value="plátano">Plátano</option>
+                                <option value="maíz">Maíz</option>
+                                <option value="caña">Caña Panelera</option>
+                                <option value="cítricos">Cítricos (Naranja / Limón / Mandarina)</option>
+                                <option value="guayaba">Guayaba</option>
+                                <option value="papaya">Papaya</option>
+                                <option value="aguacate">Aguacate Hass</option>
+                                <option value="lechuga">Lechuga Batavia</option>
+                                <option value="arándanos">Arándanos</option>
+                                <option value="pimentón">Pimentón</option>
+                                <option value="granadilla">Granadilla</option>
+                                <option value="coliflor">Coliflor</option>
+                                <option value="acelga">Acelga</option>
+                                <option value="arracacha">Arracacha</option>
+                                <option value="gulupa">Gulupa</option>
+                                <option value="fresa">Fresa</option>
+                                <option value="repollo">Repollo</option>
+                                <option value="espinaca">Espinaca</option>
+                                <option value="hortensias">Hortensias / Flores</option>
+                                <option value="cilantro">Cilantro</option>
+                                <option value="ajo">Ajo</option>
+                                <option value="yuca">Yuca</option>
+                                <option value="mora">Mora</option>
+                                <option value="crisantemos">Crisantemos</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 d-flex gap-2">
+                            <button class="btn btn-outline-green-pill w-100 fw-bold" data-bs-toggle="collapse" data-bs-target="#advancedFilterBox">
+                                <i class="bi bi-sliders me-1"></i> Filtros Avanzados
+                            </button>
+                            <button id="btn-limpiar" class="btn btn-light rounded-pill px-3 fw-bold text-secondary" onclick="limpiarFiltros()">Limpiar</button>
+                        </div>
+                    </div>
+
+                    <!-- Panel Desplegable de Filtros Avanzados -->
+                    <div class="collapse mt-4 pt-3 border-top" id="advancedFilterBox">
+                        <div class="row g-3">
+                            <div class="col-md-3">
+                                <label class="form-label fw-bold text-dark fs-7 mb-1">Clima</label>
+                                <select id="filter-clima" class="form-select form-select-rounded">
+                                    <option value="">Todos los climas</option>
+                                    <option value="frio">❄️ Frío</option>
+                                    <option value="templado">⛅ Templado</option>
+                                    <option value="caliente">☀️ Caliente</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label fw-bold text-dark fs-7 mb-1">Canal de Comercialización</label>
+                                <select id="filter-canal" class="form-select form-select-rounded">
+                                    <option value="">Todos los canales</option>
+                                    <option value="nacional">🇨🇴 Nacional</option>
+                                    <option value="internacional">✈️ Exportación / Internacional</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label fw-bold text-dark fs-7 mb-1">Tipo de Cultivo</label>
+                                <select id="filter-tipo-cultivo" class="form-select form-select-rounded">
+                                    <option value="">Cualquier tipo</option>
+                                    <option value="tubérculo">Tubérculo</option>
+                                    <option value="leguminosa">Leguminosa</option>
+                                    <option value="raíces">Raíces</option>
+                                    <option value="cultivo permanente">Cultivo Permanente</option>
+                                    <option value="cultivo industrial">Cultivo Industrial</option>
+                                    <option value="cereal">Cereal</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label fw-bold text-dark fs-7 mb-1">Fase / Proceso Activo</label>
+                                <select id="filter-proceso" class="form-select form-select-rounded">
+                                    <option value="">Cualquier proceso</option>
+                                    <option value="floración">Floración</option>
+                                    <option value="fructificación">Fructificación</option>
+                                    <option value="maduración">Maduración</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold text-dark fs-7 mb-1">Rango de Área (Hectáreas)</label>
+                                <div class="d-flex align-items-center gap-2">
+                                    <input type="number" step="0.5" id="filter-ha-min" class="form-control form-control-rounded" placeholder="Mín (Ha)">
+                                    <span class="text-muted">-</span>
+                                    <input type="number" step="0.5" id="filter-ha-max" class="form-control form-control-rounded" placeholder="Máx (Ha)">
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-end">
+                                <button class="btn btn-green-main text-white w-100 rounded-pill fw-bold" onclick="cargarGranjas(1)">
+                                    <i class="bi bi-search me-1"></i> Aplicar Filtros del Controlador
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contador de Registros -->
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h6 class="fw-bold text-secondary mb-0" id="total-count-text">Mostrando fincas encontradas</h6>
+                </div>
+
+                <!-- Grid de Tarjetas de Fincas -->
+                <div class="row g-3 mb-4" id="fincas-grid-container">
+                    <!-- Dinámico -->
+                </div>
+
+                <!-- Paginador -->
+                <div class="d-flex justify-content-between align-items-center pb-5">
+                    <span id="pagination-info" class="text-muted fs-7">Cargando...</span>
+                    <nav>
+                        <ul class="pagination pagination-rounded mb-0" id="pagination-controls">
+                            <!-- Páginas -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MODAL DASHBOARD / DETALLE COMPLETO DE LA FINCA -->
+    <div class="modal fade" id="detalleFincaModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4 shadow-lg overflow-hidden">
+                <div class="modal-header bg-green-main text-white px-4 py-3 border-0">
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="fs-4" id="det-icon">🥑</span>
+                        <div>
+                            <h5 class="modal-title fw-extrabold text-white mb-0" id="det-nombre">Nombre Finca</h5>
+                            <small class="text-white-80" id="det-ubicacion"><i class="bi bi-geo-alt-fill me-1"></i>Ubicación</small>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-4 bg-slate">
+                    <!-- Mini Dashboard en Modal también estilizado en verde para coherencia -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <div class="card card-stat-green border-0 shadow-sm p-3 text-center">
+                                <span class="text-white-80 fs-7">Cultivo Principal</span>
+                                <h6 class="fw-bold text-white mb-0 mt-1" id="det-cultivo">Aguacate Hass</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-stat-green border-0 shadow-sm p-3 text-center">
+                                <span class="text-white-80 fs-7">Área Cultivada</span>
+                                <h6 class="fw-bold text-white mb-0 mt-1" id="det-tamano">12.5 Ha</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-stat-green border-0 shadow-sm p-3 text-center">
+                                <span class="text-white-80 fs-7">Ciclo Agrícola</span>
+                                <h6 class="fw-bold text-white mb-0 mt-1" id="det-ciclos">12 Meses</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm p-3 rounded-4 h-100 bg-white">
+                                <h6 class="fw-bold text-dark mb-3"><i class="bi bi-info-circle text-green me-2"></i>Clasificación Agroecológica</h6>
+                                <div class="d-flex justify-content-between align-items-center mb-2 pb-2 border-bottom">
+                                    <span class="text-muted fs-7">Clima de la Finca:</span>
+                                    <span id="det-clima-badge">Frío</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-2 pb-2 border-bottom">
+                                    <span class="text-muted fs-7">Canal Comercial:</span>
+                                    <span id="det-canal-badge">Nacional</span>
+                                </div>
+                                <div class="mb-2">
+                                    <span class="text-muted fs-7 d-block mb-1">Tipos de Cultivo:</span>
+                                    <div id="det-tipos-container" class="d-flex flex-wrap gap-1"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm p-3 rounded-4 h-100 bg-white">
+                                <h6 class="fw-bold text-dark mb-3"><i class="bi bi-telephone-out text-green me-2"></i>Contacto y Propietario</h6>
+                                <div class="mb-3">
+                                    <span class="text-muted fs-7 d-block">Propietario / Encargado:</span>
+                                    <strong class="text-dark fs-6" id="det-contacto-nombre">Juan Pérez</strong>
+                                </div>
+                                <div class="mb-3">
+                                    <span class="text-muted fs-7 d-block">Teléfono / WhatsApp:</span>
+                                    <a href="#" id="det-contacto-phone-link" class="btn btn-light-green text-green fw-bold rounded-pill btn-sm d-inline-flex align-items-center gap-1 mt-1">
+                                        <i class="bi bi-whatsapp"></i> <span id="det-contacto-telefono">+57 300 000 0000</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="card border-0 shadow-sm p-3 rounded-4 bg-white">
+                                <h6 class="fw-bold text-dark mb-2"><i class="bi bi-activity text-green me-2"></i>Procesos Productivos Activos</h6>
+                                <div id="det-procesos-container" class="d-flex flex-wrap gap-2 py-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-white border-0 px-4 py-3">
+                    <button type="button" class="btn btn-light rounded-pill px-4 fw-bold" data-bs-dismiss="modal">Cerrar Dashboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL FORMULARIO DE CREAR / EDITAR -->
+    <div class="modal fade" id="granjaModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4 shadow-lg">
+                <div class="modal-header bg-green-main text-white rounded-top-4 px-4 py-3 border-0">
+                    <h5 class="modal-title fw-bold d-flex align-items-center gap-2" id="granjaModalLabel">
+                        🌱 Registrar Finca en el Oriente
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <form id="granja-form">
+                    <div class="modal-body p-4 bg-slate">
+                        <input type="hidden" id="granja-id">
+                        
+                        <!-- FILA 1: Nombre / Producto -->
+                        <div class="card border-0 shadow-sm p-3 mb-3 rounded-4 bg-white">
+                            <h6 class="fw-bold text-dark-green mb-3 fs-7 uppercase tracking-wider"><i class="bi bi-card-heading me-1"></i> Información General</h6>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fs-7 fw-bold text-secondary">Nombre de la Finca</label>
+                                    <input type="text" id="granja-nombre" class="form-control rounded-3" required placeholder="Ej: Finca La Esperanza">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fs-7 fw-bold text-secondary">Producto / Cultivo Principal</label>
+                                    <input type="text" id="granja-cultivo" class="form-control rounded-3" required placeholder="Ej: Aguacate Hass, Papa Capira...">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FILA 2: Ubicación / Ciclos / Área -->
+                        <div class="card border-0 shadow-sm p-3 mb-3 rounded-4 bg-white">
+                            <h6 class="fw-bold text-dark-green mb-3 fs-7 uppercase tracking-wider"><i class="bi bi-geo-alt me-1"></i> Ubicación y Dimensiones</h6>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fs-7 fw-bold text-secondary">Ubicación / Municipio</label>
+                                    <input type="text" id="granja-ubicacion" class="form-control rounded-3" required placeholder="Ej: Rionegro, Sonsón...">
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label fs-7 fw-bold text-secondary">Ciclos (Meses)</label>
+                                    <input type="number" id="granja-ciclos" class="form-control rounded-3" required min="1" value="12">
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label fs-7 fw-bold text-secondary">Área (Hectáreas)</label>
+                                    <input type="number" step="0.1" id="granja-tamano" class="form-control rounded-3" required min="0.1" value="5.0">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FILA 3: Contacto -->
+                        <div class="card border-0 shadow-sm p-3 mb-3 rounded-4 bg-white">
+                            <h6 class="fw-bold text-dark-green mb-3 fs-7 uppercase tracking-wider"><i class="bi bi-person-lines-fill me-1"></i> Propietario / Contacto</h6>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fs-7 fw-bold text-secondary">Nombre del Propietario</label>
+                                    <input type="text" id="contacto-nombre" class="form-control rounded-3" required placeholder="Ej: Carlos Gómez">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fs-7 fw-bold text-secondary">Teléfono de Contacto</label>
+                                    <input type="text" id="contacto-telefono" class="form-control rounded-3" required placeholder="Ej: +57 300 123 4567">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FILA 4 (BOTONES SELECCIONABLES): Clima / Canal / Procesos / Tipo Cultivo -->
+                        <div class="card border-0 shadow-sm p-3 rounded-4 bg-white">
+                            <h6 class="fw-bold text-dark-green mb-3 fs-7 uppercase tracking-wider"><i class="bi bi-ui-checks me-1"></i> Características del Cultivo (Botones Selección)</h6>
+                            
+                            <!-- Clima (Botones) -->
+                            <div class="mb-3">
+                                <label class="form-label fs-7 fw-bold text-secondary d-block">Seleccionar Clima:</label>
+                                <div class="btn-group w-100" role="group">
+                                    <input type="radio" class="btn-check" name="clima-btn-group" id="clima-frio" value="frio" checked>
+                                    <label class="btn btn-outline-success rounded-start-pill py-2" for="clima-frio">❄️ Frío</label>
+
+                                    <input type="radio" class="btn-check" name="clima-btn-group" id="clima-templado" value="templado">
+                                    <label class="btn btn-outline-success py-2" for="clima-templado">⛅ Templado</label>
+
+                                    <input type="radio" class="btn-check" name="clima-btn-group" id="clima-caliente" value="caliente">
+                                    <label class="btn btn-outline-success rounded-end-pill py-2" for="clima-caliente">☀️ Caliente</label>
+                                </div>
+                            </div>
+
+                            <!-- Canal de Venta (Botones) -->
+                            <div class="mb-3">
+                                <label class="form-label fs-7 fw-bold text-secondary d-block">Canal de Comercialización:</label>
+                                <div class="btn-group w-100" role="group">
+                                    <input type="radio" class="btn-check" name="canal-btn-group" id="canal-nacional" value="nacional" checked>
+                                    <label class="btn btn-outline-primary rounded-start-pill py-2" for="canal-nacional">🇨🇴 Nacional</label>
+
+                                    <input type="radio" class="btn-check" name="canal-btn-group" id="canal-internacional" value="internacional">
+                                    <label class="btn btn-outline-primary rounded-end-pill py-2" for="canal-internacional">✈️ Exportación / Internacional</label>
+                                </div>
+                            </div>
+
+                            <!-- Procesos (Chips) -->
+                            <div class="mb-3">
+                                <label class="form-label fs-7 fw-bold text-secondary d-block">Procesos Productivos (Haz clic para seleccionar):</label>
+                                <div class="d-flex flex-wrap gap-2" id="procesos-chips-container">
+                                    <button type="button" class="btn btn-chip btn-outline-secondary rounded-pill btn-sm" data-value="floración">🌸 Floración</button>
+                                    <button type="button" class="btn btn-chip btn-outline-secondary rounded-pill btn-sm" data-value="fructificación">🍋 Fructificación</button>
+                                    <button type="button" class="btn btn-chip btn-outline-secondary rounded-pill btn-sm" data-value="maduración">🌾 Maduración</button>
+                                </div>
+                            </div>
+
+                            <!-- Tipo Cultivo (Chips) -->
+                            <div class="mb-1">
+                                <label class="form-label fs-7 fw-bold text-secondary d-block">Tipo de Cultivo (Haz clic para seleccionar):</label>
+                                <div class="d-flex flex-wrap gap-2" id="tipos-chips-container">
+                                    <button type="button" class="btn btn-chip btn-outline-secondary rounded-pill btn-sm" data-value="tubérculo">🥔 Tubérculo</button>
+                                    <button type="button" class="btn btn-chip btn-outline-secondary rounded-pill btn-sm" data-value="leguminosa">🫘 Leguminosa</button>
+                                    <button type="button" class="btn btn-chip btn-outline-secondary rounded-pill btn-sm" data-value="raíces">🥕 Raíces</button>
+                                    <button type="button" class="btn btn-chip btn-outline-secondary rounded-pill btn-sm" data-value="cultivo permanente">🌲 Cultivo Permanente</button>
+                                    <button type="button" class="btn btn-chip btn-outline-secondary rounded-pill btn-sm" data-value="cultivo industrial">🏭 Cultivo Industrial</button>
+                                    <button type="button" class="btn btn-chip btn-outline-secondary rounded-pill btn-sm" data-value="cereal">🌽 Cereal</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer bg-white px-4 border-0">
+                        <button type="button" class="btn btn-light fw-semibold rounded-pill" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-green-main text-white fw-bold px-4 rounded-pill" id="btn-save-granja">Guardar Finca</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

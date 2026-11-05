@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BaseDatos/BaseDatos.csproj" />
+  <Project Path="ManejoDeCultivos/ManejoDeCultivos.csproj" />
+  <Project Path="Modelos/Modelos.csproj" />
+  <Project Path="Servicios/Servicios.csproj" />
+</Solution>
